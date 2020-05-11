@@ -51,7 +51,7 @@
     <div class="uk-container">
         <nav class="uk-navbar-container uk-margin uk-navbar-transparent" uk-navbar>
             <div class="uk-navbar-left">
-                <a class="uk-navbar-item uk-logo" href="#"><img src="images/aqua-city-logo.png" alt=""></a>
+                <a class="uk-navbar-item uk-logo" href="."><img src="images/aqua-city-logo.png" alt=""></a>
             </div>
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav">
