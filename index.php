@@ -280,8 +280,8 @@
                     <div>
                         <a href="<?= $v['src'] ?>" data-caption="<?= $v['txt'] ?>">
                             <div class="uk-position-relative uk-light">
-                                <div class="uk-cover-container">
-                                    <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                <div class="uk-cover-container uk-transition-toggle">
+                                    <img class="uk-transition-scale-up uk-position-top-left uk-transition-opaque" src="<?= $v['src'] ?>" alt="" uk-cover>
                                     <canvas width="201" height="151"></canvas>
                                 </div>
                                 <div class="uk-padding-small uk-position-bottom box1_tienich">
