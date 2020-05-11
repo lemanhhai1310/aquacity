@@ -47,27 +47,50 @@
      logged_out_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi">
 </div>
 <div id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden">
-<div id="header">
-    <div class="uk-container">
-        <nav class="uk-navbar-container uk-margin uk-navbar-transparent" uk-navbar>
-            <div class="uk-navbar-left">
-                <a class="uk-navbar-item uk-logo" href="."><img src="images/aqua-city-logo.png" alt=""></a>
-            </div>
-            <div class="uk-navbar-right">
-                <ul class="uk-navbar-nav">
-                    <li class="uk-active"><a href="#">TRANG CHỦ</a></li>
-                    <li><a href="#">GIỚI THIỆU</a></li>
-                    <li><a href="#">VỊ TRÍ</a></li>
-                    <li><a href="#">TIỆN ÍCH</a></li>
-                    <li><a href="#">MẶT BẰNG</a></li>
-                    <li><a href="#">THIẾT KẾ</a></li>
-                    <li><a href="#">THANH TOÁN</a></li>
-                    <li><a href="#">TIN TỨC</a></li>
-                </ul>
-            </div>
-        </nav>
+    <div id="header">
+        <div class="uk-container">
+            <nav class="uk-navbar-container uk-margin uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo" href="."><img src="images/aqua-city-logo.png" alt=""></a>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
+                        <li><a href="#">GIỚI THIỆU</a></li>
+                        <li><a href="#">VỊ TRÍ</a></li>
+                        <li><a href="#">TIỆN ÍCH</a></li>
+                        <li><a href="#">MẶT BẰNG</a></li>
+                        <li><a href="#">THIẾT KẾ</a></li>
+                        <li><a href="#">THANH TOÁN</a></li>
+                        <li><a href="#">TIN TỨC</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </div>
-</div>
+    <div class="uk-position-relative">
+        <div id="bg_slider" class="uk-position-bottom-center uk-background-cover uk-position-z-index" data-src="images/edge-1.png" uk-img></div>
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img src="images/e65c966cb6fe4fa016ef-1536x862.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/EliteVilla_Cam006-water-marked-1536x956.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/H9003-CloseUp_Elite_Villa_Garden-1536x864.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/Kayak_ClubHouse_The-Elite-1-1536x690.jpg" alt="" uk-cover>
+                </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+        </div>
+    </div>
 </div>
 </body>
 </html>
