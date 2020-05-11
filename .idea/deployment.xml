@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="aquacity" uploadOnCheckin="ad7168fd-2c4e-4372-bddd-3a28bec4d1a6">
+  <component name="PublishConfigData" serverName="aquacity" uploadOnCheckin="2cca0a85-d164-4e70-b3c2-25c5323fea9e">
     <serverData>
       <paths name="aquacity">
         <serverdata>
@@ -17,6 +17,6 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="aquacity" />
+    <option name="myUploadOnCheckinName" value="aquacitybienhoa.site" />
   </component>
 </project>

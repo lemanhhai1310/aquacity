@@ -47,7 +47,7 @@
      logged_out_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi">
 </div>
 <div id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden">
-    <nav id="header" class="uk-navbar-container uk-background-default uk-navbar-transparent uk-box-shadow-small" uk-navbar uk-sticky>
+    <nav id="header" class="uk-navbar-container uk-background-default uk-navbar-transparent uk-box-shadow-medium" uk-navbar uk-sticky>
         <div class="uk-navbar-left">
             <a class="uk-navbar-item uk-logo" href="."><img src="images/aqua-city-logo.png" alt=""></a>
         </div>
@@ -64,20 +64,28 @@
             </ul>
         </div>
     </nav>
-    <div id="home" class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+    <div id="home" class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: scale; autoplay: true;">
         <div id="bg_slider" class="uk-position-bottom-center uk-background-cover uk-position-z-index" data-src="images/edge-1.png" uk-img></div>
         <ul class="uk-slideshow-items">
             <li>
-                <img src="images/e65c966cb6fe4fa016ef-1536x862.jpg" alt="" uk-cover>
+                <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                    <img src="images/e65c966cb6fe4fa016ef-1536x862.jpg" alt="" uk-cover>
+                </div>
             </li>
             <li>
-                <img src="images/EliteVilla_Cam006-water-marked-1536x956.jpg" alt="" uk-cover>
+                <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+                    <img src="images/EliteVilla_Cam006-water-marked-1536x956.jpg" alt="" uk-cover>
+                </div>
             </li>
             <li>
-                <img src="images/H9003-CloseUp_Elite_Villa_Garden-1536x864.jpg" alt="" uk-cover>
+                <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+                    <img src="images/H9003-CloseUp_Elite_Villa_Garden-1536x864.jpg" alt="" uk-cover>
+                </div>
             </li>
             <li>
-                <img src="images/Kayak_ClubHouse_The-Elite-1-1536x690.jpg" alt="" uk-cover>
+                <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-right">
+                    <img src="images/Kayak_ClubHouse_The-Elite-1-1536x690.jpg" alt="" uk-cover>
+                </div>
             </li>
         </ul>
         <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-position-z-index" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>

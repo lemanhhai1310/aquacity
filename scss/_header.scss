@@ -1,6 +1,10 @@
 .uk-logo{
   img{
     height: 37px;
+    transition: all .3s;
+    .uk-active &{
+      height: 33px;
+    }
   }
 }
 //===================================
