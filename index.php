@@ -55,7 +55,7 @@
             <ul class="uk-navbar-nav uk-visible@l" uk-scrollspy-nav="closest: li; scroll: true; offset: 80">
                 <li><a href="#home">TRANG CHỦ</a></li>
                 <li><a href="#about">GIỚI THIỆU</a></li>
-                <li><a href="#">VỊ TRÍ</a></li>
+                <li><a href="#vitri">VỊ TRÍ</a></li>
                 <li><a href="#">TIỆN ÍCH</a></li>
                 <li><a href="#">MẶT BẰNG</a></li>
                 <li><a href="#">THIẾT KẾ</a></li>
@@ -91,73 +91,138 @@
         <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-position-z-index" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
         <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-position-z-index" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
     </div>
-    <div id="about" class="uk-section">
-        <div class="uk-container uk-container-x">
-            <div class="uk-text-center logo-about">
-                <img src="images/logo-aqua-city-300x150.jpg" alt="">
-            </div>
-            <h4 class="title_1 uk-text-center uk-margin-small"><em>SỐNG XANH THỜI HIỆN ĐẠI</em></h4>
-            <div class="desc_1">Khu đô thị sinh thái Aqua City 3 mặt giáp sông, nằm ở xã Long Hưng (Biên Hòa) cạnh sân Golf Long Thành, sở hữu vị trí tam giác TPHCM – Đồng Nai – Vũng Tàu và các tỉnh miền tây. Nằm ngay trên trục đường lớn Hương Lộ 2 (Ngô Quyền nối dài) kết nối lên cao tốc Long Thành Dầu Giây, cư dân chỉ mất 15 phút vào Quận 2. Liền kề sân Golf Long Thành.</div>
-            <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-margin-medium uk-text-center" uk-grid>
-                <?php
-                $data = array(
-                    array(
-                        "src" => "images/about/tong-quan.svg",
-                        "txt" => "Khu đô thị sinh thái",
-                    ),
-                    array(
-                        "src" => "images/about/vi-tri.svg",
-                        "txt" => "Vị trí chiến lược",
-                    ),
-                    array(
-                        "src" => "images/about/xanh.svg",
-                        "txt" => "Trong lành, tươi mát quanh năm",
-                    ),
-                    array(
-                        "src" => "images/about/novaland.svg",
-                        "txt" => "Uy tín từ nhà phát triển Novaland",
-                    ),
-                    array(
-                        "src" => "images/about/phap-ly.svg",
-                        "txt" => "Pháp lý rõ ràng",
-                    ),
-                    array(
-                        "src" => "images/about/tag.svg",
-                        "txt" => "Thanh toán trong 36 tháng & đợt 1 chỉ 15%",
-                    ),
-                );
-                foreach ($data as $k => $v): ?>
-                <div>
-                    <div class="uk-text-center uk-margin-small">
-                        <div class="box_img uk-margin-auto">
-                            <img class="uk-responsive-height" src="<?= $v['src'] ?>" alt="">
-                        </div>
-                    </div>
-                    <div><?= $v['txt'] ?></div>
+    <div id="about">
+        <div class="uk-section">
+            <div class="uk-container uk-container-x">
+                <div class="uk-text-center logo-about">
+                    <img src="images/logo-aqua-city-300x150.jpg" alt="">
                 </div>
-                <?php endforeach; ?>
+                <h4 class="title_1 uk-text-center uk-margin-small"><em>SỐNG XANH THỜI HIỆN ĐẠI</em></h4>
+                <div class="desc_1">Khu đô thị sinh thái Aqua City 3 mặt giáp sông, nằm ở xã Long Hưng (Biên Hòa) cạnh sân Golf Long Thành, sở hữu vị trí tam giác TPHCM – Đồng Nai – Vũng Tàu và các tỉnh miền tây. Nằm ngay trên trục đường lớn Hương Lộ 2 (Ngô Quyền nối dài) kết nối lên cao tốc Long Thành Dầu Giây, cư dân chỉ mất 15 phút vào Quận 2. Liền kề sân Golf Long Thành.</div>
+                <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-margin-medium uk-text-center" uk-grid>
+                    <?php
+                    $data = array(
+                        array(
+                            "src" => "images/about/tong-quan.svg",
+                            "txt" => "Khu đô thị sinh thái",
+                        ),
+                        array(
+                            "src" => "images/about/vi-tri.svg",
+                            "txt" => "Vị trí chiến lược",
+                        ),
+                        array(
+                            "src" => "images/about/xanh.svg",
+                            "txt" => "Trong lành, tươi mát quanh năm",
+                        ),
+                        array(
+                            "src" => "images/about/novaland.svg",
+                            "txt" => "Uy tín từ nhà phát triển Novaland",
+                        ),
+                        array(
+                            "src" => "images/about/phap-ly.svg",
+                            "txt" => "Pháp lý rõ ràng",
+                        ),
+                        array(
+                            "src" => "images/about/tag.svg",
+                            "txt" => "Thanh toán trong 36 tháng & đợt 1 chỉ 15%",
+                        ),
+                    );
+                    foreach ($data as $k => $v): ?>
+                        <div>
+                            <div class="uk-text-center uk-margin-small">
+                                <div class="box_img uk-margin-auto">
+                                    <img class="uk-responsive-height" src="<?= $v['src'] ?>" alt="">
+                                </div>
+                            </div>
+                            <div><?= $v['txt'] ?></div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+        <div class="uk-grid-collapse uk-background-cover uk-light uk-flex-middle" uk-grid data-src="images/vitri/background-pattern.png" uk-img>
+            <div class="uk-width-expand">
+                <img class="uk-responsive-width uk-width-1-1" src="images/vitri/Mặt-bằng-tổng-thể-1.jpg" alt="">
+            </div>
+            <div class="uk-width-1-3@l">
+                <div class="uk-padding">
+                    <h4 class="title_2">THÔNG TIN DỰ ÁN</h4>
+                    <ul class="uk-list uk-list-bullet list1">
+                        <li>Tên dự án: Aqua City</li>
+                        <li>Phát triển dự án: Tập đoàn Novaland</li>
+                        <li>Vị trí: Long Hưng, TP.Biên Hòa, Đồng Nai</li>
+                        <li>Quy mô: 1000 hecta bao gồm tiện ích + 5 phân khu</li>
+                        <li>Số lượng: 1000 căn</li>
+                        <li>Diện tích: 6*20, 8*20, 10*20, 15*20….</li>
+                        <li>Loại hình: Nhà phố, biệt thự ven sông, shophouse</li>
+                        <li>Thiết kế: 1 trệt 2 lầu</li>
+                        <li>Khởi công: 2019</li>
+                        <li>Dự kiến bàn giao: năm 2023</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-    <div class="uk-grid-collapse uk-background-cover uk-light uk-flex-middle" uk-grid data-src="images/vitri/background-pattern.png" uk-img>
-        <div class="uk-width-expand">
-            <img class="uk-responsive-width uk-width-1-1" src="images/vitri/Mặt-bằng-tổng-thể-1.jpg" alt="">
+    <div id="vitri">
+        <div class="uk-section-small">
+            <div class="uk-container uk-container-x">
+                <div class="uk-text-uppercase">VỊ TRÍ VÀNG, ĐẮC ĐỊA</div>
+                <h3 class="title_3 uk-text-uppercase uk-margin">VỊ TRÍ DỰ ÁN</h3>
+                <div class="desc_1">Khu đô thị sinh thái Aqua City nằm tại xã Long Hưng, Biên Hòa, Đồng Nai. Dự án nằm trong Khu Đô Thị Vệ Tinh lơn nhất Đồng Nai. Tọa lạc tại vị trí tâm điểm kết nối các tuyến giao thông huyết mạch liên vùng ngay tại cửa ngõ phía Đông TP.HCM, từ dự án dễ dàng tiếp cận đến TP.HCM và các tỉnh lân cận vùng Đông Nam Bộ.</div>
+            </div>
         </div>
-        <div class="uk-width-1-3@l">
-            <div class="uk-padding">
-                <h4 class="title_2">THÔNG TIN DỰ ÁN</h4>
-                <ul class="uk-list uk-list-bullet list1">
-                    <li>Tên dự án: Aqua City</li>
-                    <li>Phát triển dự án: Tập đoàn Novaland</li>
-                    <li>Vị trí: Long Hưng, TP.Biên Hòa, Đồng Nai</li>
-                    <li>Quy mô: 1000 hecta bao gồm tiện ích + 5 phân khu</li>
-                    <li>Số lượng: 1000 căn</li>
-                    <li>Diện tích: 6*20, 8*20, 10*20, 15*20….</li>
-                    <li>Loại hình: Nhà phố, biệt thự ven sông, shophouse</li>
-                    <li>Thiết kế: 1 trệt 2 lầu</li>
-                    <li>Khởi công: 2019</li>
-                    <li>Dự kiến bàn giao: năm 2023</li>
-                </ul>
+        <div class="uk-grid-collapse uk-background-cover uk-light uk-flex-middle" uk-grid data-src="images/vitri/background-pattern.png" uk-img>
+            <div class="uk-width-expand">
+                <img class="uk-responsive-width uk-width-1-1" src="images/vitri/d8b6e71df54d0f13565c.jpg" alt="">
+            </div>
+            <div class="uk-width-1-3@l uk-flex-first@l">
+                <div class="uk-padding">
+                    <h4 class="title_2">KẾT NỐI NHANH CHÓNG TỚI</h4>
+                    <ul class="uk-list uk-list-divider list1">
+                        <li>
+                            <div class="uk-flex uk-flex-between uk-flex-middle">
+                                <span>KDL Suối Tiên, KCN Cao Q9</span>
+                                <span>5p</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-flex uk-flex-between uk-flex-middle">
+                                <span>Đại Học Quốc Gia TPHCM</span>
+                                <span>7p</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-flex uk-flex-between uk-flex-middle">
+                                <span>Trung tâm Biên Hòa & Bình Dương</span>
+                                <span>10p</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-flex uk-flex-between uk-flex-middle">
+                                <span>TT Tài Chính Thủ Thiêm</span>
+                                <span>15p</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-flex uk-flex-between uk-flex-middle">
+                                <span>Trung tâm TPHCM</span>
+                                <span>25p</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-flex uk-flex-between uk-flex-middle">
+                                <span>Cách sân bay Quốc tế Long Thành</span>
+                                <span>20p</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-flex uk-flex-between uk-flex-middle">
+                                <span>Trạm cuối Metro Bến Thành – Suối Tiên</span>
+                                <span>10p</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
