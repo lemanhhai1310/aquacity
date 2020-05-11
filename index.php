@@ -56,7 +56,7 @@
                 <li><a href="#home">TRANG CHỦ</a></li>
                 <li><a href="#about">GIỚI THIỆU</a></li>
                 <li><a href="#vitri">VỊ TRÍ</a></li>
-                <li><a href="#">TIỆN ÍCH</a></li>
+                <li><a href="#tienich">TIỆN ÍCH</a></li>
                 <li><a href="#">MẶT BẰNG</a></li>
                 <li><a href="#">THIẾT KẾ</a></li>
                 <li><a href="#">THANH TOÁN</a></li>
@@ -224,6 +224,73 @@
                     </ul>
                     <a href="" class="uk-button uk-button-secondary uk-width-1-1">xem bản đồ</a>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div id="tienich" class="uk-section-small">
+        <div class="uk-container uk-container-x">
+            <div class="uk-text-uppercase">+50 TIỆN ÍCH HẤP DẪN</div>
+            <h3 class="title_3 uk-text-uppercase uk-margin">HỆ THỐNG TIỆN ÍCH</h3>
+            <div class="desc_1"><a href="">Aqua City Biên Hòa</a> là khu đô thị sinh thái mang lại không gian sống xanh ven sông Đồng Nai. Hệ thống tiện ích nghỉ dưỡng tại đây như, khu thương mại, Club house, hồ bơi. Đặc biệt bến du thuyền tại sông Đồng Nai, cư dân Aqua City có thể trải nghiệm cuộc sống đẳng cấp tại đây. Hệ thống trường mẫu giáo, trường cấp hai tại đây cũng được chú trọng. Khu vui chơi trẻ em, công viên cây xanh…</div>
+            <div class="uk-child-width-1-2 uk-margin uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-2 uk-grid-3-s" uk-grid uk-lightbox="animation: slide">
+                <?php
+                $data = array(
+                    array(
+                        "src" => "images/tienich/0018.jpg",
+                        "txt" => "CLUB KAYAT",
+                    ),
+                    array(
+                        "src" => "images/tienich/e116f1ea7ab49ceac5a5.jpg",
+                        "txt" => "CÔNG VIÊN",
+                    ),
+                    array(
+                        "src" => "images/tienich/b690284fc82d2e73773c.jpg",
+                        "txt" => "AQUA SPORT",
+                    ),
+                    array(
+                        "src" => "images/tienich/81f0968cdf03395d6012.jpg",
+                        "txt" => "CLUBHOUSE",
+                    ),
+                    array(
+                        "src" => "images/tienich/0237ff8ebb015d5f0410.jpg",
+                        "txt" => "AQUA MALL",
+                    ),
+                    array(
+                        "src" => "images/tienich/z1738022161292_300564d186b30c50730dae5b80e2cf17.jpg",
+                        "txt" => "AQUA MARINA",
+                    ),
+                    array(
+                        "src" => "images/tienich/z1738022173104_9d22bbc0b1d811b3b8b267316d9ab2ae.jpg",
+                        "txt" => "SÂN GOLF",
+                    ),
+                    array(
+                        "src" => "images/tienich/z1738022178738_5090deb9c99810c22a578e2dde0b435c.jpg",
+                        "txt" => "BẾN DU THUYỀN",
+                    ),
+                    array(
+                        "src" => "images/tienich/z1738022165747_88d5875028d60b82e01c0366bfd26fe4.jpg",
+                        "txt" => "PHỐ THƯƠNG MẠI",
+                    ),
+                    array(
+                        "src" => "images/tienich/z1749339255918_effaa20031eab3b1caa2e4234548c2e9.jpg",
+                        "txt" => "HỒ BƠI",
+                    ),
+                );
+                foreach ($data as $k => $v): ?>
+                    <div>
+                        <a href="<?= $v['src'] ?>" data-caption="<?= $v['txt'] ?>">
+                            <div class="uk-position-relative uk-light">
+                                <div class="uk-cover-container">
+                                    <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                    <canvas width="201" height="151"></canvas>
+                                </div>
+                                <div class="uk-padding-small uk-position-bottom box1_tienich">
+                                    <?= $v['txt'] ?>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
