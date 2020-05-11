@@ -4,3 +4,21 @@
   }
 }
 //===================================
+.uk-navbar-nav{
+  >li{
+    &.uk-active{
+      >a{
+        #header &{
+          color: #283891;
+        }
+      }
+    }
+    >a{
+      #header &{
+        font-family: $font-Elle-Futura-Bold;
+        font-size: 13px;
+        color: #2ab574;
+      }
+    }
+  }
+}
