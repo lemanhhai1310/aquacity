@@ -145,7 +145,8 @@
         </div>
         <div class="uk-width-1-3@l">
             <div class="uk-padding">
-                <ul class="uk-list list1">
+                <h4 class="title_2">THÔNG TIN DỰ ÁN</h4>
+                <ul class="uk-list uk-list-bullet list1">
                     <li>Tên dự án: Aqua City</li>
                     <li>Phát triển dự án: Tập đoàn Novaland</li>
                     <li>Vị trí: Long Hưng, TP.Biên Hòa, Đồng Nai</li>

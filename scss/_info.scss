@@ -1,10 +1,14 @@
 .list1{
   margin: 0;
   >li{
+    font-family: $font-Elle-Futura-Regular;
     @extend .dz2;
     .uk-light &{
-
+      color: #f1f1f1;
     }
   }
 }
 //===================================
+.title_2{
+  @extend .fz1;
+}
