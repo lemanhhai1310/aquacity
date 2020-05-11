@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ad7168fd-2c4e-4372-bddd-3a28bec4d1a6" name="aquacity" url="http://35.194.55.16">
+        <fileTransfer host="35.194.55.16" port="22" rootFolder="/home/admin/web/themes.cathtmlcss.net/public_html/2020/05/aquacity" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
