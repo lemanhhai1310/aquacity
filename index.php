@@ -294,9 +294,11 @@
             </div>
         </div>
     </div>
-    <div class="uk-section uk-background-cover" data-src="images/e65c966cb6fe4fa016ef-1536x862.jpg" uk-img>
-        <div class="uk-container uk-container-x">
+    <div class="uk-position-relative">
+        <div class="uk-background-cover uk-section uk-position-relative uk-width-1-1 uk-position-z-index" data-src="images/e65c966cb6fe4fa016ef-1536x862.jpg" uk-img>
+            <div class="uk-container uk-container-x">
 
+            </div>
         </div>
     </div>
 </div>
