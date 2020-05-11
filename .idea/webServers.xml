@@ -10,6 +10,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="2cca0a85-d164-4e70-b3c2-25c5323fea9e" name="aquacitybienhoa.site" url="http://35.194.55.16">
+        <fileTransfer host="35.194.55.16" port="22" rootFolder="/home/admin/web/aquacitybienhoa.site/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

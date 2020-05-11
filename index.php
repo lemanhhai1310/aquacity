@@ -47,48 +47,88 @@
      logged_out_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi">
 </div>
 <div id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden">
-    <div id="header">
-        <div class="uk-container">
-            <nav class="uk-navbar-container uk-margin uk-navbar-transparent" uk-navbar>
-                <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-logo" href="."><img src="images/aqua-city-logo.png" alt=""></a>
-                </div>
-                <div class="uk-navbar-right">
-                    <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
-                        <li><a href="#">GIỚI THIỆU</a></li>
-                        <li><a href="#">VỊ TRÍ</a></li>
-                        <li><a href="#">TIỆN ÍCH</a></li>
-                        <li><a href="#">MẶT BẰNG</a></li>
-                        <li><a href="#">THIẾT KẾ</a></li>
-                        <li><a href="#">THANH TOÁN</a></li>
-                        <li><a href="#">TIN TỨC</a></li>
-                    </ul>
-                </div>
-            </nav>
+    <nav id="header" class="uk-navbar-container uk-background-default uk-navbar-transparent uk-box-shadow-small" uk-navbar uk-sticky>
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="."><img src="images/aqua-city-logo.png" alt=""></a>
         </div>
-    </div>
-    <div class="uk-position-relative">
-        <div id="bg_slider" class="uk-position-bottom-center uk-background-cover uk-position-z-index" data-src="images/edge-1.png" uk-img></div>
-        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
-            <ul class="uk-slideshow-items">
-                <li>
-                    <img src="images/e65c966cb6fe4fa016ef-1536x862.jpg" alt="" uk-cover>
-                </li>
-                <li>
-                    <img src="images/EliteVilla_Cam006-water-marked-1536x956.jpg" alt="" uk-cover>
-                </li>
-                <li>
-                    <img src="images/H9003-CloseUp_Elite_Villa_Garden-1536x864.jpg" alt="" uk-cover>
-                </li>
-                <li>
-                    <img src="images/Kayak_ClubHouse_The-Elite-1-1536x690.jpg" alt="" uk-cover>
-                </li>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@l" uk-scrollspy-nav="closest: li; scroll: true; offset: 80">
+                <li><a href="#home">TRANG CHỦ</a></li>
+                <li><a href="#about">GIỚI THIỆU</a></li>
+                <li><a href="#">VỊ TRÍ</a></li>
+                <li><a href="#">TIỆN ÍCH</a></li>
+                <li><a href="#">MẶT BẰNG</a></li>
+                <li><a href="#">THIẾT KẾ</a></li>
+                <li><a href="#">THANH TOÁN</a></li>
+                <li><a href="#">TIN TỨC</a></li>
             </ul>
-
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-
+        </div>
+    </nav>
+    <div id="home" class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+        <div id="bg_slider" class="uk-position-bottom-center uk-background-cover uk-position-z-index" data-src="images/edge-1.png" uk-img></div>
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="images/e65c966cb6fe4fa016ef-1536x862.jpg" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="images/EliteVilla_Cam006-water-marked-1536x956.jpg" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="images/H9003-CloseUp_Elite_Villa_Garden-1536x864.jpg" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="images/Kayak_ClubHouse_The-Elite-1-1536x690.jpg" alt="" uk-cover>
+            </li>
+        </ul>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-position-z-index" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-position-z-index" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    </div>
+    <div id="about" class="uk-section">
+        <div class="uk-container uk-container-x">
+            <div class="uk-text-center logo-about">
+                <img src="images/logo-aqua-city-300x150.jpg" alt="">
+            </div>
+            <h4 class="title_1 uk-text-center uk-margin-small"><em>SỐNG XANH THỜI HIỆN ĐẠI</em></h4>
+            <div class="desc_1">Khu đô thị sinh thái Aqua City 3 mặt giáp sông, nằm ở xã Long Hưng (Biên Hòa) cạnh sân Golf Long Thành, sở hữu vị trí tam giác TPHCM – Đồng Nai – Vũng Tàu và các tỉnh miền tây. Nằm ngay trên trục đường lớn Hương Lộ 2 (Ngô Quyền nối dài) kết nối lên cao tốc Long Thành Dầu Giây, cư dân chỉ mất 15 phút vào Quận 2. Liền kề sân Golf Long Thành.</div>
+            <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-margin-medium uk-text-center" uk-grid>
+                <?php
+                $data = array(
+                    array(
+                        "src" => "images/about/tong-quan.svg",
+                        "txt" => "Khu đô thị sinh thái",
+                    ),
+                    array(
+                        "src" => "images/about/vi-tri.svg",
+                        "txt" => "Vị trí chiến lược",
+                    ),
+                    array(
+                        "src" => "images/about/xanh.svg",
+                        "txt" => "Trong lành, tươi mát quanh năm",
+                    ),
+                    array(
+                        "src" => "images/about/novaland.svg",
+                        "txt" => "Uy tín từ nhà phát triển Novaland",
+                    ),
+                    array(
+                        "src" => "images/about/phap-ly.svg",
+                        "txt" => "Pháp lý rõ ràng",
+                    ),
+                    array(
+                        "src" => "images/about/tag.svg",
+                        "txt" => "Thanh toán trong 36 tháng & đợt 1 chỉ 15%",
+                    ),
+                );
+                foreach ($data as $k => $v): ?>
+                <div>
+                    <div class="uk-text-center uk-margin-small">
+                        <div class="box_img uk-margin-auto">
+                            <img class="uk-responsive-height" src="<?= $v['src'] ?>" alt="">
+                        </div>
+                    </div>
+                    <div><?= $v['txt'] ?></div>
+                </div>
+                <?php endforeach; ?>
+            </div>
         </div>
     </div>
 </div>

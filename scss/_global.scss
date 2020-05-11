@@ -1,4 +1,29 @@
 body{
-  font-size: 13px;
+  @extend .dz1;
+  min-height: 300vh;
 }
 //===================================
+.fz1{
+  font-family: $font-Elle-Futura-Bold;
+  font-size: 17px;
+  @media (min-width: 640px) {
+    font-size: 18px !important;
+  }
+  @media (min-width: 960px) {
+    font-size: 20px !important;
+  }
+}
+//===================================
+.uk-container-x{
+  max-width: 1010px;
+}
+//===================================
+.dz1{
+  font-size: 14px;
+  line-height: 1.6;
+  color: #000;
+  font-family: $font-Elle-Futura-Regular;
+  @media (min-width: 640px) {
+    font-size: 15px !important;
+  }
+}
