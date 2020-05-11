@@ -73,7 +73,7 @@
                 </div>
             </li>
             <li>
-                <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+                <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-right">
                     <img src="images/EliteVilla_Cam006-water-marked-1536x956.jpg" alt="" uk-cover>
                 </div>
             </li>
@@ -83,7 +83,7 @@
                 </div>
             </li>
             <li>
-                <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-right">
+                <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-left">
                     <img src="images/Kayak_ClubHouse_The-Elite-1-1536x690.jpg" alt="" uk-cover>
                 </div>
             </li>
