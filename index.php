@@ -139,6 +139,27 @@
             </div>
         </div>
     </div>
+    <div class="uk-grid-collapse uk-background-cover uk-light uk-flex-middle" uk-grid data-src="images/vitri/background-pattern.png" uk-img>
+        <div class="uk-width-expand">
+            <img class="uk-responsive-width uk-width-1-1" src="images/vitri/Mặt-bằng-tổng-thể-1.jpg" alt="">
+        </div>
+        <div class="uk-width-1-3@l">
+            <div class="uk-padding">
+                <ul class="uk-list list1">
+                    <li>Tên dự án: Aqua City</li>
+                    <li>Phát triển dự án: Tập đoàn Novaland</li>
+                    <li>Vị trí: Long Hưng, TP.Biên Hòa, Đồng Nai</li>
+                    <li>Quy mô: 1000 hecta bao gồm tiện ích + 5 phân khu</li>
+                    <li>Số lượng: 1000 căn</li>
+                    <li>Diện tích: 6*20, 8*20, 10*20, 15*20….</li>
+                    <li>Loại hình: Nhà phố, biệt thự ven sông, shophouse</li>
+                    <li>Thiết kế: 1 trệt 2 lầu</li>
+                    <li>Khởi công: 2019</li>
+                    <li>Dự kiến bàn giao: năm 2023</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
