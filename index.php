@@ -222,6 +222,7 @@
                             </div>
                         </li>
                     </ul>
+                    <a href="" class="uk-button uk-button-secondary uk-width-1-1">xem bản đồ</a>
                 </div>
             </div>
         </div>

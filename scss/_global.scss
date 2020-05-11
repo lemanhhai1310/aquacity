@@ -37,8 +37,14 @@ body{
 .dz2{
   font-size: 15px;
   line-height: 1.6;
+  #vitri &{
+    font-size: 14px !important;
+  }
   @media (min-width: 640px) {
     font-size: 16px !important;
+    #vitri &{
+      font-size: 15px !important;
+    }
   }
 }
 //===================================
