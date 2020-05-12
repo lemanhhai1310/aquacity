@@ -341,6 +341,29 @@
                 <div class="uk-text-uppercase">THÔNG TIN</div>
                 <h3 class="title_3 uk-text-uppercase uk-margin">MẶT BẰNG TỔNG QUAN</h3>
                 <div class="desc_1">Aqua City khu đô thị lớn quy mô giai đoạn 1 hơn 305ha, gồm nhiều phân khu thiết kế mẫu nhà theo nhiều chủ đề khác nhau. Quý khách hàng vui lòng “Click vào hình” để xem rõ mặt bằng tổng thể, phân lô từng khu.</div>
+                <div class="uk-margin-medium uk-column-1-2@s">
+                    <?php
+                    $data = array(
+                        "Trung tâm thương mại",
+                        "Trường học",
+                        "Lối Đi Bộ",
+                        "Khu thể thao",
+                        "Khu vui chơi trẻ em",
+                        "Vườn BBQ",
+                        "Hệ thống hồ bơi",
+                        "Clubhouse",
+                        "Khu cắm trại",
+                        "Bến Du Thuyền",
+                    );
+                    foreach ($data as $k => $v): ?>
+                    <div>
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto"><span class="uk-badge"><?= $k+1 ?></span></div>
+                            <div class="uk-width-expand"><?= $v ?></div>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
             </div>
         </div>
     </div>
