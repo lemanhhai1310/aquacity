@@ -296,8 +296,16 @@
     </div>
     <div class="uk-position-relative">
         <div class="uk-background-cover uk-section uk-position-relative uk-width-1-1 uk-position-z-index" data-src="images/e65c966cb6fe4fa016ef-1536x862.jpg" uk-img>
-            <div class="uk-container uk-container-x">
+            <div class="uk-container uk-container-expand">
+                <div class="uk-flex-center" uk-grid>
+                    <div class="uk-width-2-5@l">
+                        <div class="uk-card uk-card-default card1 uk-height-large">
+                            <div class="uk-card-body uk-background-default uk-height-1-1">
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
