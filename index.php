@@ -408,7 +408,13 @@
         </div>
     </div>
     <div id="thietke">
-
+        <div class="uk-section-small">
+            <div class="uk-container uk-container-x">
+                <div class="uk-text-uppercase">THÔNG TIN DỰ ÁN</div>
+                <h3 class="title_3 uk-text-uppercase uk-margin">MẪU NHÀ KHU ELITE</h3>
+                <div class="desc_1"><span class="c1">Aqua City khu Elite</span> được thiết kế nhiều loại diện tích gồm Nhà phố và Shophouse 6*20, nhà phố 8*20, biệt thự Aqua City  vip view sông từ 200m2 – 400m2 thiết kế sang trọng đẳng cấp.</div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
