@@ -391,7 +391,7 @@
                 foreach ($data as $k => $v): ?>
                     <div>
                         <a href="<?= $v['src'] ?>" data-caption="<?= $v['txt'] ?>">
-                            <div class="uk-position-relative uk-light">
+                            <div class="uk-position-relative uk-light sp1">
                                 <div class="uk-cover-container uk-transition-toggle">
                                     <img class="uk-transition-scale-up uk-position-top-left uk-transition-opaque" data-src="<?= $v['src'] ?>" alt="" uk-img uk-cover>
                                     <canvas width="300" height="300"></canvas>
@@ -412,7 +412,53 @@
             <div class="uk-container uk-container-x">
                 <div class="uk-text-uppercase">THÔNG TIN DỰ ÁN</div>
                 <h3 class="title_3 uk-text-uppercase uk-margin">MẪU NHÀ KHU ELITE</h3>
-                <div class="desc_1"><span class="c1">Aqua City khu Elite</span> được thiết kế nhiều loại diện tích gồm Nhà phố và Shophouse 6*20, nhà phố 8*20, biệt thự Aqua City  vip view sông từ 200m2 – 400m2 thiết kế sang trọng đẳng cấp.</div>
+                <div class="desc_1"><strong class="c1">Aqua City khu Elite</strong> được thiết kế nhiều loại diện tích gồm Nhà phố và Shophouse 6*20, nhà phố 8*20, biệt thự
+                    <a href="">Aqua City</a> vip view sông từ 200m2 – 400m2 thiết kế sang trọng đẳng cấp.</div>
+                <div class="uk-child-width-1-2 uk-margin-medium uk-child-width-1-3@s uk-grid-2 uk-grid-2-s" uk-grid uk-lightbox="animation: slide">
+                    <?php
+                    $data = array(
+                        array(
+                            "src" => "images/thietke/z1737432968116_651cf9e0dc4808743c57b0447eba725d.jpg",
+                            "txt" => "Nhà Phố 6*20",
+                        ),
+                        array(
+                            "src" => "images/thietke/0029.jpg",
+                            "txt" => "Nhà Phố 8*20",
+                        ),
+                        array(
+                            "src" => "images/thietke/0031.jpg",
+                            "txt" => "Biệt Thự 10*20",
+                        ),
+                        array(
+                            "src" => "images/thietke/630a4be8dccb27957eda.jpg",
+                            "txt" => "Villa Sông 15*20",
+                        ),
+                        array(
+                            "src" => "images/thietke/z1783570394563_1a8297f07196ad4b65afa9b2616c44ba.jpg",
+                            "txt" => "Biệt Thự Sông 15*25",
+                        ),
+                        array(
+                            "src" => "images/thietke/7297869111b2eaecb3a3.jpg",
+                            "txt" => "Villa Sông 400m2",
+                        ),
+                    );
+                    foreach ($data as $k => $v): ?>
+                        <div>
+                            <a href="<?= $v['src'] ?>" data-caption="<?= $v['txt'] ?>">
+                                <div class="uk-position-relative uk-light sp1">
+                                    <div class="uk-cover-container uk-transition-toggle">
+                                        <img class="uk-transition-scale-up uk-position-top-left uk-transition-opaque" data-src="<?= $v['src'] ?>" alt="" uk-img uk-cover>
+                                        <canvas width="341" height="193"></canvas>
+                                    </div>
+                                    <div class="uk-overlay uk-overlay-default uk-position-cover"></div>
+                                    <div class="uk-padding-small uk-position-bottom box1_tienich">
+                                        <?= $v['txt'] ?>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
             </div>
         </div>
     </div>
