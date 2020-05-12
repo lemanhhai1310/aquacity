@@ -356,7 +356,7 @@
                         "Bến Du Thuyền",
                     );
                     foreach ($data as $k => $v): ?>
-                    <div>
+                    <div class="uk-margin-small">
                         <div class="uk-grid-small uk-flex-middle" uk-grid>
                             <div class="uk-width-auto"><span class="uk-badge"><?= $k+1 ?></span></div>
                             <div class="uk-width-expand"><?= $v ?></div>
@@ -365,6 +365,10 @@
                     <?php endforeach; ?>
                 </div>
             </div>
+        </div>
+        <img class="uk-width-1-1" src="images/matbang/e377ff37de55250b7c44-Copy-1024x673.jpg" alt="">
+        <div>
+
         </div>
     </div>
 </div>
