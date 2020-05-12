@@ -57,7 +57,7 @@
                 <li><a href="#about">GIỚI THIỆU</a></li>
                 <li><a href="#vitri">VỊ TRÍ</a></li>
                 <li><a href="#tienich">TIỆN ÍCH</a></li>
-                <li><a href="#">MẶT BẰNG</a></li>
+                <li><a href="#matbang">MẶT BẰNG</a></li>
                 <li><a href="#">THIẾT KẾ</a></li>
                 <li><a href="#">THANH TOÁN</a></li>
                 <li><a href="#">TIN TỨC</a></li>
@@ -332,6 +332,15 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div id="matbang">
+        <div class="uk-section-small">
+            <div class="uk-container uk-container-x">
+                <div class="uk-text-uppercase">THÔNG TIN</div>
+                <h3 class="title_3 uk-text-uppercase uk-margin">MẶT BẰNG TỔNG QUAN</h3>
+                <div class="desc_1">Aqua City khu đô thị lớn quy mô giai đoạn 1 hơn 305ha, gồm nhiều phân khu thiết kế mẫu nhà theo nhiều chủ đề khác nhau. Quý khách hàng vui lòng “Click vào hình” để xem rõ mặt bằng tổng thể, phân lô từng khu.</div>
             </div>
         </div>
     </div>
