@@ -11,3 +11,13 @@
   }
 }
 //===================================
+.uk-overlay{
+  #matbang &{
+    background: linear-gradient(to top, #323232 0%, rgba(50,50,50,0) 33%);
+    opacity: .3;
+    transition: opacity .3s;
+    &:hover{
+      opacity: .5;
+    }
+  }
+}

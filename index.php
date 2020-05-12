@@ -58,7 +58,7 @@
                 <li><a href="#vitri">VỊ TRÍ</a></li>
                 <li><a href="#tienich">TIỆN ÍCH</a></li>
                 <li><a href="#matbang">MẶT BẰNG</a></li>
-                <li><a href="#">THIẾT KẾ</a></li>
+                <li><a href="#thietke">THIẾT KẾ</a></li>
                 <li><a href="#">THANH TOÁN</a></li>
                 <li><a href="#">TIN TỨC</a></li>
             </ul>
@@ -367,9 +367,48 @@
             </div>
         </div>
         <img class="uk-width-1-1" src="images/matbang/e377ff37de55250b7c44-Copy-1024x673.jpg" alt="">
-        <div>
-
+        <div class="uk-container uk-container-x uk-padding-remove">
+            <div class="uk-child-width-1-2 uk-margin uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-2 uk-grid-2-s" uk-grid uk-lightbox="animation: slide">
+                <?php
+                $data = array(
+                    array(
+                        "src" => "images/matbang/z1636946022337_616862d09f6ac49f11d56ac8f4c8e02a.jpg",
+                        "txt" => "Khu Stella",
+                    ),
+                    array(
+                        "src" => "images/matbang/917883aa6ed88886d1c9.jpg",
+                        "txt" => "Khu Grand Villa",
+                    ),
+                    array(
+                        "src" => "images/matbang/MB-Valencia-File-moi-5mb.jpg",
+                        "txt" => "Khu Valencia",
+                    ),
+                    array(
+                        "src" => "images/matbang/e377ff37de55250b7c44-Copy-1024x673.jpg",
+                        "txt" => "Khu Elite",
+                    ),
+                );
+                foreach ($data as $k => $v): ?>
+                    <div>
+                        <a href="<?= $v['src'] ?>" data-caption="<?= $v['txt'] ?>">
+                            <div class="uk-position-relative uk-light">
+                                <div class="uk-cover-container uk-transition-toggle">
+                                    <img class="uk-transition-scale-up uk-position-top-left uk-transition-opaque" data-src="<?= $v['src'] ?>" alt="" uk-img uk-cover>
+                                    <canvas width="300" height="300"></canvas>
+                                </div>
+                                <div class="uk-overlay uk-overlay-default uk-position-cover"></div>
+                                <div class="uk-padding-small uk-position-bottom box1_tienich">
+                                    <?= $v['txt'] ?>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                <?php endforeach; ?>
+            </div>
         </div>
+    </div>
+    <div id="thietke">
+
     </div>
 </div>
 </body>
