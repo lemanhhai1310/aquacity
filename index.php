@@ -655,7 +655,8 @@
         </div>
     </div>
     <div class="uk-position-relative">
-        <div class="uk-background-cover uk-section uk-position-relative uk-width-1-1 uk-position-z-index" data-src="images/bg/st-v2-up1.jpg" uk-img>
+        <div class="bg1 uk-background-cover uk-position-cover" data-src="images/bg/st-v2-up1.jpg" uk-img></div>
+        <div class="uk-position-relative uk-position-z-index uk-section">
             <div class="uk-container uk-container-x">
                 <div class="uk-flex-left" uk-grid>
                     <div class="uk-width-3-5@l">
@@ -701,6 +702,12 @@
                 <h4 class="title_1 uk-text-center uk-margin-small"><span>TIN TỨC DỰ ÁN</span></h4>
                 <div class="desc_1 uk-text-center">Cập nhật tin tức dự án mới nhất</div>
             </div>
+        </div>
+    </div>
+    <div class="uk-position-relative">
+        <div class="bg2 uk-background-cover uk-position-cover" data-src="images/bg/tong-quan-aqua-city.jpg" uk-img></div>
+        <div class="uk-position-relative uk-position-z-index uk-section-small">
+            1
         </div>
     </div>
     <div id="footer" class="uk-section-xsmall uk-background-muted uk-text-center">
