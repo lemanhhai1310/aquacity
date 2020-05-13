@@ -654,6 +654,47 @@
             </div>
         </div>
     </div>
+    <div class="uk-position-relative">
+        <div class="uk-background-cover uk-section uk-position-relative uk-width-1-1 uk-position-z-index" data-src="images/bg/st-v2-up1.jpg" uk-img>
+            <div class="uk-container uk-container-x">
+                <div class="uk-flex-left" uk-grid>
+                    <div class="uk-width-3-5@l">
+                        <div class="uk-card uk-card-default card1">
+                            <div class="uk-card-body uk-background-default uk-height-1-1">
+                                <div class="uk-text-uppercase uk-text-center">ĐĂNG KÝ ĐỂ NHẬN</div>
+                                <h3 class="title_4 uk-text-uppercase uk-text-center uk-margin">ƯU ĐÃI & BẢNG GIÁ</h3>
+                                <form>
+                                    <fieldset class="uk-fieldset">
+                                        <div class="uk-margin">
+                                            <input class="uk-input" type="text" placeholder="Tên khách hàng*">
+                                        </div>
+                                        <div class="uk-margin">
+                                            <input class="uk-input" type="tel" placeholder="Số điện thoại*">
+                                        </div>
+                                        <div class="uk-margin">
+                                            <input class="uk-input" type="email" placeholder="Địa chỉ Email*">
+                                        </div>
+                                        <div class="uk-margin">
+                                            <button type="submit" class="uk-button btn1 uk-button-default uk-width-1-1">NHẬN BẢNG GIÁ</button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                                <ul class="uk-list list1 uk-list-bullet">
+                                    <li><span>CHIẾT KHẤU TỪ 1% – 20%</span></li>
+                                    <li>Trả lãi suất <span>15%/NĂM</span> nếu không mua nữa</li>
+                                    <li>Tặng gói thiết kế Sân Vườn <span>450TR</span></li>
+                                    <li>Hỗ trợ vay <span>0 GỐC + 0 LÃI</span></li>
+                                    <li>Thanh toán 30% ngưng đến lúc nhân nhà</li>
+                                    <li>Tặng Viên Kim Cương <span>150TR</span></li>
+                                    <li>Trả Góp chỉ 60tr/tháng đến nhận nhà</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
