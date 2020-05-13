@@ -599,8 +599,57 @@
                 <div class="uk-text-uppercase">THANH TOÁN CHỈ 52 TRIỆU/THÁNG</div>
                 <h3 class="title_3 uk-text-uppercase uk-margin">TIẾN ĐỘ THANH TOÁN</h3>
                 <div class="desc_1">Mỗi khu Aqua City tiến độ thanh toán khác nhau. Để cập nhật tiến độ thanh toán từng khu quý khách hàng liên hệ PKD Novaland 0898.797.712. Sau đây là tiến độ thanh toán <strong>Aqua City Stella, trả góp chỉ 1%/ tháng</strong> đến lúc nhận nhà.</div>
-                <div class="uk-margin">
-                    <img src="images/thanhtoan/0001.jpg" alt="">
+                <div class="uk-margin uk-text-center">
+                    <div><img src="images/thanhtoan/0001.jpg" alt=""></div>
+                    <div><img class="uk-width-1-1@l" src="images/thanhtoan/0003.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-section-small">
+            <div class="uk-container uk-container-x">
+                <h3 class="title_3 uk-text-uppercase uk-margin">TIẾN ĐỘ XÂY DỰNG</h3>
+                <div class="desc_1">Hiện tại Aqua City đã có nhà mẫu để khách hàng tham quan. Hình ảnh giống nhà mẫu 100%. Quý khách hàng vui lòng liên hệ PKD Novaland 0898.797.712 để nhận ưu đãi và có xe đi tham quan dự án miễn phí. Chúng tôi sẽ luôn cập nhật hình ảnh cập nhật mới nhất</div>
+                <div class="uk-child-width-1-2 uk-margin uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-2 uk-grid-2-s" uk-grid uk-lightbox="animation: slide">
+                    <?php
+                    $data = array(
+                        array(
+                            "src" => "images/xaydung/z1854036691201_d650479b833fa7fdd4769012f447d959-1024x725.jpg",
+                        ),
+                        array(
+                            "src" => "images/xaydung/z1862107583005_f9f1870dd21f6e8a83515083e1cc7c66-1024x768.jpg",
+                        ),
+                        array(
+                            "src" => "images/xaydung/z1864053073408_5c39b525aa2d730df1bba774748a8a49.jpg",
+                        ),
+                        array(
+                            "src" => "images/xaydung/z1864053095177_e5041c8e268a23de0daf500392760e89.jpg",
+                        ),
+                        array(
+                            "src" => "images/xaydung/z1864053100243_031edd35dd1a481e5304f166a2a8c9e0.jpg",
+                        ),
+                        array(
+                            "src" => "images/xaydung/z1864053108931_77377eaecbfabb861913717260799ee0.jpg",
+                        ),
+                        array(
+                            "src" => "images/xaydung/z1864053122933_66fc125e5a0b37c07e92ea177e395562.jpg",
+                        ),
+                        array(
+                            "src" => "images/xaydung/z1864053115627_bb47b34434d05010b1b8a026cb89c76a.jpg",
+                        ),
+                    );
+                    foreach ($data as $k => $v): ?>
+                        <div>
+                            <a href="<?= $v['src'] ?>" data-caption="">
+                                <div class="uk-position-relative uk-light sp1">
+                                    <div class="uk-cover-container uk-transition-toggle">
+                                        <img class="uk-transition-scale-up uk-position-top-left uk-transition-opaque" data-src="<?= $v['src'] ?>" alt="" uk-img uk-cover>
+                                        <canvas width="252" height="142"></canvas>
+                                    </div>
+                                    <div class="uk-overlay uk-overlay-default uk-position-cover"></div>
+                                </div>
+                            </a>
+                        </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>
