@@ -704,12 +704,12 @@
             </div>
         </div>
     </div>
-    <div class="uk-position-relative">
+    <div id="dky_f" class="uk-position-relative">
         <div class="bg2 uk-background-cover uk-position-cover" data-src="images/bg/tong-quan-aqua-city.jpg" uk-img></div>
         <div class="uk-position-relative uk-position-z-index uk-section-large">
             <div class="uk-container uk-container-x">
                 <div class="uk-flex-middle" uk-grid>
-                    <div class="uk-width-2-5@m">
+                    <div class="uk-width-1-2@m">
                         <div class="uk-text-center uk-light">
                             <div><img style="width: 200px;" src="images/bg/logo-aqua-white.svg" alt=""></div>
                             <h4 class="title_1 uk-text-center uk-margin">SÀN GIAO DỊCH DỰ ÁN</h4>
