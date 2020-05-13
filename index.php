@@ -712,19 +712,41 @@
                     <div class="uk-width-2-5@m">
                         <div class="uk-text-center uk-light">
                             <div><img style="width: 200px;" src="images/bg/logo-aqua-white.svg" alt=""></div>
-                            <h4 class="title_1 uk-text-center uk-margin-small">SÀN GIAO DỊCH DỰ ÁN</h4>
+                            <h4 class="title_1 uk-text-center uk-margin">SÀN GIAO DỊCH DỰ ÁN</h4>
                             <ul class="uk-list">
                                 <li>181 Hàm Nghi, phường Nguyễn Thái Bình, Quận 1, HCM</li>
                                 <li><span uk-icon="icon: receiver; ratio: 1"></span> 0898 797 712 | 0363 624 265</li>
                                 <li><span uk-icon="icon: mail; ratio: 1"></span> huong.lethithu3@novaland.com.vn</li>
                                 <li>Thời gian làm việc: 8:00 – 18:00 Các ngày trong tuần</li>
                             </ul>
-                            <h4 class="title_1 uk-text-center uk-margin-small">NHÀ PHÁT TRIỂN DỰ ÁN</h4>
+                            <h4 class="title_1 uk-text-center uk-margin">NHÀ PHÁT TRIỂN DỰ ÁN</h4>
                             <div><img style="width: 150px;" src="images/bg/novaland-logo.svg" alt=""></div>
                         </div>
                     </div>
                     <div class="uk-width-expand">
-
+                        <div class="uk-card uk-card-default card1">
+                            <div class="uk-card-body uk-background-default uk-height-1-1">
+                                <div class="uk-text-uppercase uk-text-center">ĐĂNG KÝ ĐỂ NHẬN</div>
+                                <h3 class="title_4 uk-text-uppercase uk-text-center uk-margin">ƯU ĐÃI & BẢNG GIÁ</h3>
+                                <form>
+                                    <fieldset class="uk-fieldset">
+                                        <div class="uk-margin">
+                                            <input class="uk-input" type="text" placeholder="Tên khách hàng*">
+                                        </div>
+                                        <div class="uk-margin">
+                                            <input class="uk-input" type="tel" placeholder="Số điện thoại*">
+                                        </div>
+                                        <div class="uk-margin">
+                                            <input class="uk-input" type="email" placeholder="Địa chỉ Email*">
+                                        </div>
+                                        <div class="uk-margin">
+                                            <button type="submit" class="uk-button btn1 uk-button-default uk-width-1-1">NHẬN BẢNG GIÁ</button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                                <div class="desc_1">*Mọi thông tin về dự án Aqua City quý khách có thể liên hệ ngay với chúng tôi qua hotline hoặc form đăng ký.</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
