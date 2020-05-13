@@ -519,6 +519,49 @@
                 </div>
             </div>
         </div>
+        <div class="uk-section-small">
+            <div class="uk-container uk-container-x">
+                <h3 class="title_3 uk-text-uppercase uk-margin">LAYOUT KHU VALENCIA</h3>
+                <div class="desc_1"><a href=""><strong>Aqua City Valencia</strong></a> thuộc phân kì mới của khu đô thị Aqua City thiết kế theo phong cách Tây Ban Nha, nằm ngay trục đường chính Nam Cao nối lên sân Golf Long Thành, trục đường 45m của khu Stella, gồm nhà phố 6*19.5m, 7*19.5m, 8*19.5m và Shophouse 6*19,5m. “Click” vào hình xem rõ layout</div>
+                <div class="uk-child-width-1-2 uk-margin uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-2 uk-grid-2-s" uk-grid uk-lightbox="animation: slide">
+                    <?php
+                    $data = array(
+                        array(
+                            "src" => "images/VALENCIA/5-195m.jpg",
+                            "txt" => "Townhouse 5*19.5m",
+                        ),
+                        array(
+                            "src" => "images/VALENCIA/6-19.jpg",
+                            "txt" => "Townhouse 6*19.5m",
+                        ),
+                        array(
+                            "src" => "images/VALENCIA/shop-3.jpg",
+                            "txt" => "Shophouse 6*19,5m",
+                        ),
+                        array(
+                            "src" => "images/VALENCIA/shop-6-195.jpg",
+                            "txt" => "Shophouse 6*19,5m",
+                        ),
+                    );
+                    foreach ($data as $k => $v): ?>
+                        <div>
+                            <a href="<?= $v['src'] ?>" data-caption="<?= $v['txt'] ?>">
+                                <div class="uk-position-relative uk-light sp1">
+                                    <div class="uk-cover-container uk-transition-toggle">
+                                        <img class="uk-transition-scale-up uk-position-top-left uk-transition-opaque" data-src="<?= $v['src'] ?>" alt="" uk-img uk-cover>
+                                        <canvas width="252" height="252"></canvas>
+                                    </div>
+                                    <div class="uk-overlay uk-overlay-default uk-position-cover"></div>
+                                    <div class="uk-padding-small uk-position-bottom box1_tienich">
+                                        <?= $v['txt'] ?>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
