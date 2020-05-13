@@ -696,7 +696,17 @@
         </div>
     </div>
     <div id="tintuc">
-
+        <div class="uk-section-small">
+            <div class="uk-container uk-container-x">
+                <h4 class="title_1 uk-text-center uk-margin-small"><span>TIN TỨC DỰ ÁN</span></h4>
+                <div class="desc_1 uk-text-center">Cập nhật tin tức dự án mới nhất</div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="uk-section-xsmall uk-background-muted uk-text-center">
+        <div class="uk-container uk-container-x">
+            <div class="desc_1 uk-text-center">Copyright 2020 © <strong>Aqua City</strong> - Dev by cathtmlcss.net</div>
+        </div>
     </div>
 </div>
 </body>
