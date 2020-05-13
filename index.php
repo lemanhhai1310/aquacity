@@ -562,6 +562,36 @@
                 </div>
             </div>
         </div>
+        <div class="uk-section-small">
+            <div class="uk-container uk-container-x">
+                <h3 class="title_3 uk-text-uppercase uk-margin">LAYOUT KHU STELLA</h3>
+                <div class="desc_1"><a href=""><strong>Aqua City Stella</strong></a> được thiết kế theophong cách Châu Âu với diện tích sân vườn lên đến 36m2 gồm nhà phố 6*20, 6*25, Shophouse 6*20 trục đường lớn 45m nối ra sân Golf Long Thành. Biệt thự song lập 10*24m, thiết kế đẳng cấp, sang trọng, hiện tại đang cho khách hàng booking có hoàn lại. “Click” vào hình để xem rõ layout.</div>
+                <div class="uk-child-width-1-2 uk-margin uk-child-width-1-2@s uk-child-width-1-2@m uk-grid-2 uk-grid-2-s" uk-grid uk-lightbox="animation: slide">
+                    <?php
+                    $data = array(
+                        array(
+                            "src" => "images/STELLA/c4ca781e0314f94aa005.jpg",
+                        ),
+                        array(
+                            "src" => "images/STELLA/cdd5299c5296a8c8f187.jpg",
+                        ),
+                    );
+                    foreach ($data as $k => $v): ?>
+                        <div>
+                            <a href="<?= $v['src'] ?>" data-caption="">
+                                <div class="uk-position-relative uk-light sp1">
+                                    <div class="uk-cover-container uk-transition-toggle">
+                                        <img class="uk-transition-scale-up uk-position-top-left uk-transition-opaque" data-src="<?= $v['src'] ?>" alt="" uk-img uk-cover>
+                                        <canvas width="508" height="381"></canvas>
+                                    </div>
+                                    <div class="uk-overlay uk-overlay-default uk-position-cover"></div>
+                                </div>
+                            </a>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
