@@ -593,7 +593,18 @@
             </div>
         </div>
     </div>
-    <div id="thanhtoan"></div>
+    <div id="thanhtoan">
+        <div class="uk-section-small">
+            <div class="uk-container uk-container-x">
+                <div class="uk-text-uppercase">THANH TOÁN CHỈ 52 TRIỆU/THÁNG</div>
+                <h3 class="title_3 uk-text-uppercase uk-margin">TIẾN ĐỘ THANH TOÁN</h3>
+                <div class="desc_1">Mỗi khu Aqua City tiến độ thanh toán khác nhau. Để cập nhật tiến độ thanh toán từng khu quý khách hàng liên hệ PKD Novaland 0898.797.712. Sau đây là tiến độ thanh toán <strong>Aqua City Stella, trả góp chỉ 1%/ tháng</strong> đến lúc nhận nhà.</div>
+                <div class="uk-margin">
+                    <img src="images/thanhtoan/0001.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
