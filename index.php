@@ -706,8 +706,28 @@
     </div>
     <div class="uk-position-relative">
         <div class="bg2 uk-background-cover uk-position-cover" data-src="images/bg/tong-quan-aqua-city.jpg" uk-img></div>
-        <div class="uk-position-relative uk-position-z-index uk-section-small">
-            1
+        <div class="uk-position-relative uk-position-z-index uk-section-large">
+            <div class="uk-container uk-container-x">
+                <div class="uk-flex-middle" uk-grid>
+                    <div class="uk-width-2-5@m">
+                        <div class="uk-text-center uk-light">
+                            <div><img style="width: 200px;" src="images/bg/logo-aqua-white.svg" alt=""></div>
+                            <h4 class="title_1 uk-text-center uk-margin-small">SÀN GIAO DỊCH DỰ ÁN</h4>
+                            <ul class="uk-list">
+                                <li>181 Hàm Nghi, phường Nguyễn Thái Bình, Quận 1, HCM</li>
+                                <li><span uk-icon="icon: receiver; ratio: 1"></span> 0898 797 712 | 0363 624 265</li>
+                                <li><span uk-icon="icon: mail; ratio: 1"></span> huong.lethithu3@novaland.com.vn</li>
+                                <li>Thời gian làm việc: 8:00 – 18:00 Các ngày trong tuần</li>
+                            </ul>
+                            <h4 class="title_1 uk-text-center uk-margin-small">NHÀ PHÁT TRIỂN DỰ ÁN</h4>
+                            <div><img style="width: 150px;" src="images/bg/novaland-logo.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand">
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="footer" class="uk-section-xsmall uk-background-muted uk-text-center">
