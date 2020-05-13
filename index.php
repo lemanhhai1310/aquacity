@@ -59,7 +59,7 @@
                 <li><a href="#tienich">TIỆN ÍCH</a></li>
                 <li><a href="#matbang">MẶT BẰNG</a></li>
                 <li><a href="#thietke">THIẾT KẾ</a></li>
-                <li><a href="#">THANH TOÁN</a></li>
+                <li><a href="#thanhtoan">THANH TOÁN</a></li>
                 <li><a href="#">TIN TỨC</a></li>
             </ul>
         </div>
@@ -593,6 +593,7 @@
             </div>
         </div>
     </div>
+    <div id="thanhtoan"></div>
 </div>
 </body>
 </html>
