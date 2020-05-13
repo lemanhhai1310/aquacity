@@ -461,6 +461,64 @@
                 </div>
             </div>
         </div>
+        <div class="uk-section-small">
+            <div class="uk-container uk-container-x">
+                <h3 class="title_3 uk-text-uppercase uk-margin">MẪU BIỆT THỰ GRAND VILLAS</h3>
+                <div class="desc_1"><a href=""><strong>Biệt Thự Aqua City Grand Villas</strong></a> là khu biệt thự đẳng cấp thiết kế theo phong cách Châu Âu, loại diện tích 15*20. Đây là khu riêng biệt đồng bộ, kết cấu 1 trệt 2 lầu, bao quanh sông và khu clubhouse, công viên cây xanh. Chỉ cần thanh toán 30% sở hữu, không gốc, không lãi.</div>
+                <div class="uk-position-relative uk-margin uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+
+                    <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="images/thietke/z1683885588000_09d06daa5ac53a3dd3ec75e04212343b.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/thietke/z1690818665263_40f76592ebb7b66ef01ab6092dd396b5.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/thietke/z1690818665508_c89055d571353e8ceb4c2131fe1f7646.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/thietke/z1690818659979_18ecfafdd3aa3c798286d934af0090d9.jpg" alt="" uk-cover>
+                        </li>
+                    </ul>
+
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                    <ul class="uk-slideshow-nav uk-position-bottom-center uk-dotnav uk-flex-center uk-margin"></ul>
+
+                </div>
+                <div class="uk-child-width-1-2 uk-margin uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-2 uk-grid-2-s" uk-grid uk-lightbox="animation: slide">
+                    <?php
+                    $data = array(
+                        array(
+                            "src" => "images/thietke/z1730978169957_acbac475794134705b492435d498af7b.jpg",
+                        ),
+                        array(
+                            "src" => "images/thietke/z1730978176675_8cbdba345b38c81db5d4761661ab3b84.jpg",
+                        ),
+                        array(
+                            "src" => "images/thietke/z1730978178133_79983a50772249bbe78f9bb26e5cc6bb.jpg",
+                        ),
+                        array(
+                            "src" => "images/thietke/z1730978184698_9f4f4418d1f6acbd6e400277f0072057.jpg",
+                        ),
+                    );
+                    foreach ($data as $k => $v): ?>
+                        <div>
+                            <a href="<?= $v['src'] ?>" data-caption="">
+                                <div class="uk-position-relative uk-light sp1">
+                                    <div class="uk-cover-container uk-transition-toggle">
+                                        <img class="uk-transition-scale-up uk-position-top-left uk-transition-opaque" data-src="<?= $v['src'] ?>" alt="" uk-img uk-cover>
+                                        <canvas width="252" height="178"></canvas>
+                                    </div>
+                                    <div class="uk-overlay uk-overlay-default uk-position-cover"></div>
+                                </div>
+                            </a>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
