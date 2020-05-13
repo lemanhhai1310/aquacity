@@ -60,7 +60,7 @@
                 <li><a href="#matbang">MẶT BẰNG</a></li>
                 <li><a href="#thietke">THIẾT KẾ</a></li>
                 <li><a href="#thanhtoan">THANH TOÁN</a></li>
-                <li><a href="#">TIN TỨC</a></li>
+                <li><a href="#tintuc">TIN TỨC</a></li>
             </ul>
         </div>
     </nav>
@@ -694,6 +694,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div id="tintuc">
+
     </div>
 </div>
 </body>
